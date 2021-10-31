@@ -1,0 +1,22 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" xsi="http://www.w3.org/2001/XMLSchema-instance" engine="UnityEngine.UIElements" editor="UnityEditor.UIElements" noNamespaceSchemaLocation="../../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
+    <Style src="project://database/Assets/UIs/SampleUI/SampleUI-MainStyles.uss?fileID=7433441132597879392&amp;guid=15d6fdcc892062748ba1205dd684b7e6&amp;type=3#SampleUI-MainStyles" />
+    <ui:VisualElement name="ui-container" class="ui-container">
+        <ui:VisualElement name="spacer-top" class="ui-button-container" />
+        <ui:VisualElement name="button-container-1" class="ui-button-container">
+            <ui:VisualElement name="button-1" class="ui-button ui-background-frame-anim">
+                <ui:VisualElement name="button-label-1" class="ui-button-label" style="background-image: url(&apos;project://database/Assets/Images/UiButtonLabels/SomeOption.png?fileID=21300000&amp;guid=50457373ee371e24e96e87ef58fd666e&amp;type=3#SomeOption&apos;);" />
+            </ui:VisualElement>
+        </ui:VisualElement>
+        <ui:VisualElement name="button-container-2" class="ui-button-container">
+            <ui:VisualElement name="button-2" class="ui-button ui-background-frame-anim">
+                <ui:VisualElement name="button-label-2" class="ui-button-label" style="background-image: url(&apos;project://database/Assets/Images/UiButtonLabels/AnotherOption.png?fileID=21300000&amp;guid=6217cb3140abc1e46bec2165a51cf759&amp;type=3#AnotherOption&apos;);" />
+            </ui:VisualElement>
+        </ui:VisualElement>
+        <ui:VisualElement name="button-container-3" class="ui-button-container">
+            <ui:VisualElement name="button-3" class="ui-button ui-background-frame-anim">
+                <ui:VisualElement name="button-label-3" class="ui-button-label" style="background-image: url(&apos;project://database/Assets/Images/UiButtonLabels/SomethingElse.png?fileID=21300000&amp;guid=1d7a998960c75694da76e5c4c9000a66&amp;type=3#SomethingElse&apos;);" />
+            </ui:VisualElement>
+        </ui:VisualElement>
+        <ui:VisualElement name="spacer-bottom" class="ui-button-container" />
+    </ui:VisualElement>
+</ui:UXML>

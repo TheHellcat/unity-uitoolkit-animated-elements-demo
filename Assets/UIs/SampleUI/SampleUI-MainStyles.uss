@@ -1,0 +1,48 @@
+.ui-button-container {
+    height: 80px;
+    cursor: url('project://database/Assets/Images/Mouse1.png?fileID=2800000&guid=50e4a55e43448e249a7add6454aa9762&type=3#Mouse1');
+}
+
+.ui-button {
+    width: 256px;
+    height: 64px;
+    left: 50%;
+    background-image: url('project://database/Assets/Images/UiButton1/ui-button-a-000.png?fileID=21300000&guid=8389026a201409547aba05dd2132719d&type=3#ui-button-a-000');
+    transition-property: width, height, translate;
+    transition-duration: 500ms, 500ms, 500ms;
+    transition-timing-function: ease-out-bounce, ease-out-bounce, ease;
+    --background-frame-anim-enabled: 0;
+    --background-frame-anim-fps: 30;
+    --background-frame-anim-spritepath-template: "Assets/Images/UiButton1/ui-button-a-{n}.png";
+    --background-frame-anim-spritepath-filenamedigits: 3;
+    cursor: url('project://database/Assets/Images/Mouse1.png?fileID=2800000&guid=50e4a55e43448e249a7add6454aa9762&type=3#Mouse1');
+    translate: -50% -50%;
+    top: 50%;
+}
+
+.ui-button:hover {
+    width: 320px;
+    height: 80px;
+    translate: -50% -49%;
+    --background-frame-anim-enabled: 1;
+}
+
+.ui-background-frame-anim {
+}
+
+.ui-button-label {
+    width: 100%;
+    height: 100%;
+    cursor: url('project://database/Assets/Images/Mouse1.png?fileID=2800000&guid=50e4a55e43448e249a7add6454aa9762&type=3#Mouse1');
+    -unity-background-scale-mode: scale-to-fit;
+}
+
+.ui-container {
+    -unity-background-scale-mode: scale-to-fit;
+    background-color: rgba(0, 0, 0, 0.5);
+    width: 50%;
+    left: 50%;
+    translate: -50% 0;
+    top: 10%;
+    cursor: url('project://database/Assets/Images/Mouse1.png?fileID=2800000&guid=50e4a55e43448e249a7add6454aa9762&type=3#Mouse1');
+}
